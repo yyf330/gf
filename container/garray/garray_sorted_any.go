@@ -156,6 +156,25 @@ func (a *SortedArray) Append(values ...interface{}) *SortedArray {
 	return a
 }
 
+// Add adds one or multiple values to sorted array, the array always keeps sorted.
+// It's alias of function Append, see Append.
+func (a *SortedArray) ForceAdd(values ...interface{}) *SortedArray {
+	return a.ForceAppend(values...)
+}
+
+// Append adds one or multiple values to sorted array, the array always keeps sorted.
+func (a *SortedArray) ForceAppend(values ...interface{}) *SortedArray {
+	if len(values) == 0 {
+		return a
+	}
+	a.mu.Lock()
+	defer a.mu.Unlock()
+	for _, value := range values {
+		a.array = append(a.array, value)
+	}
+	return a
+}
+
 // Get returns the value by the specified index.
 // If the given <index> is out of range of the array, the <found> is false.
 func (a *SortedArray) Get(index int) (value interface{}, found bool) {
