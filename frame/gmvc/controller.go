@@ -1,14 +1,14 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 // Package gmvc provides basic object classes for MVC.
 package gmvc
 
 import (
-	"github.com/gogf/gf/net/ghttp"
+	"github.com/yyf330/gf/net/ghttp"
 )
 
 // Controller is used for controller register of ghttp.Server.

@@ -1,25 +1,25 @@
-// Copyright 2019 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2019 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 package gdb
 
 import (
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/yyf330/gf/errors/gerror"
+	"github.com/yyf330/gf/util/gutil"
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/text/gstr"
+	"github.com/yyf330/gf/text/gstr"
 
-	"github.com/gogf/gf/os/gtime"
+	"github.com/yyf330/gf/os/gtime"
 
-	"github.com/gogf/gf/encoding/gbinary"
+	"github.com/yyf330/gf/encoding/gbinary"
 
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/yyf330/gf/text/gregex"
+	"github.com/yyf330/gf/util/gconv"
 )
 
 // convertValue automatically checks and converts field value from database type

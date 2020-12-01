@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/yyf330/gf/os/gtime"
 
 	_ "github.com/denisenkom/go-mssqldb"
-	"github.com/gogf/gf/frame/g"
+	"github.com/yyf330/gf/frame/g"
 )
 
 func main() {

@@ -1,20 +1,20 @@
-// Copyright 2019 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2019 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 package gres_test
 
 import (
-	_ "github.com/gogf/gf/os/gres/testdata/data"
+	_ "github.com/yyf330/gf/os/gres/testdata/data"
 
 	"testing"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/yyf330/gf/frame/g"
+	"github.com/yyf330/gf/test/gtest"
 
-	"github.com/gogf/gf/os/gres"
+	"github.com/yyf330/gf/os/gres"
 )
 
 func Test_Basic(t *testing.T) {

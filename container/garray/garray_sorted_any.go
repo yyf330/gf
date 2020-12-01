@@ -1,24 +1,24 @@
-// Copyright 2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2018 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 package garray
 
 import (
 	"bytes"
 	"fmt"
-	"github.com/gogf/gf/internal/empty"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/yyf330/gf/internal/empty"
+	"github.com/yyf330/gf/internal/json"
+	"github.com/yyf330/gf/text/gstr"
+	"github.com/yyf330/gf/util/gutil"
 	"math"
 	"sort"
 
-	"github.com/gogf/gf/internal/rwmutex"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/grand"
+	"github.com/yyf330/gf/internal/rwmutex"
+	"github.com/yyf330/gf/util/gconv"
+	"github.com/yyf330/gf/util/grand"
 )
 
 // SortedArray is a golang sorted array with rich features.

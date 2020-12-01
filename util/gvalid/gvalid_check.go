@@ -1,19 +1,19 @@
-// Copyright 2017-2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017-2018 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 package gvalid
 
 import (
 	"errors"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/net/gipv4"
-	"github.com/gogf/gf/net/gipv6"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/yyf330/gf/internal/json"
+	"github.com/yyf330/gf/net/gipv4"
+	"github.com/yyf330/gf/net/gipv6"
+	"github.com/yyf330/gf/os/gtime"
+	"github.com/yyf330/gf/text/gregex"
+	"github.com/yyf330/gf/util/gconv"
 	"regexp"
 	"strconv"
 	"strings"

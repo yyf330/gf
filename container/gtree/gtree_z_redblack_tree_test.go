@@ -1,8 +1,8 @@
-// Copyright 2017-2019 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017-2019 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with gm file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 package gtree_test
 
@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gogf/gf/container/gtree"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/yyf330/gf/container/gtree"
+	"github.com/yyf330/gf/container/gvar"
+	"github.com/yyf330/gf/test/gtest"
+	"github.com/yyf330/gf/util/gutil"
 )
 
 func getValue() interface{} {

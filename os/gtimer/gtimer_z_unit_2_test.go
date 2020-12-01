@@ -1,8 +1,8 @@
-// Copyright 2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2018 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 // Entry Operations
 
@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/os/gtimer"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/yyf330/gf/container/garray"
+	"github.com/yyf330/gf/os/gtimer"
+	"github.com/yyf330/gf/test/gtest"
 )
 
 func TestEntry_Start_Stop_Close(t *testing.T) {

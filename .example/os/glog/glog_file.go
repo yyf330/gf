@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
+	"github.com/yyf330/gf/frame/g"
+	"github.com/yyf330/gf/os/gfile"
+	"github.com/yyf330/gf/os/glog"
 )
 
 // 设置日志等级

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/gogf/gf/database/gdb"
+	"github.com/yyf330/gf/database/gdb"
 	"time"
 )
 

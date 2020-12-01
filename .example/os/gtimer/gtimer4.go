@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gtimer"
+	"github.com/yyf330/gf/os/glog"
+	"github.com/yyf330/gf/os/gtimer"
 )
 
 func main() {

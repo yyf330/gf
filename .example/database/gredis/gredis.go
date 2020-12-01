@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/database/gredis"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/yyf330/gf/database/gredis"
+	"github.com/yyf330/gf/util/gconv"
 )
 
 // 使用原生gredis.New操作redis，但是注意需要自己调用Close方法关闭redis链接池

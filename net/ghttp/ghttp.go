@@ -1,17 +1,17 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 // Package ghttp provides powerful http server and simple client implements.
 package ghttp
 
 import (
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/gcache"
-	"github.com/gogf/gf/os/gsession"
+	"github.com/yyf330/gf/container/gmap"
+	"github.com/yyf330/gf/container/gtype"
+	"github.com/yyf330/gf/os/gcache"
+	"github.com/yyf330/gf/os/gsession"
 	"github.com/gorilla/websocket"
 	"net/http"
 	"reflect"

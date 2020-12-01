@@ -1,8 +1,8 @@
-// Copyright 2017-2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017-2018 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 package gdb
 
@@ -10,21 +10,21 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/internal/empty"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/yyf330/gf/internal/empty"
+	"github.com/yyf330/gf/internal/json"
+	"github.com/yyf330/gf/internal/utils"
+	"github.com/yyf330/gf/os/gtime"
+	"github.com/yyf330/gf/util/gutil"
 	"reflect"
 	"regexp"
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/internal/structs"
+	"github.com/yyf330/gf/internal/structs"
 
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/yyf330/gf/text/gregex"
+	"github.com/yyf330/gf/text/gstr"
+	"github.com/yyf330/gf/util/gconv"
 )
 
 // apiString is the type assert api for String.
@@ -558,7 +558,7 @@ func formatWhereKeyValue(db DB, buffer *bytes.Buffer, newArgs []interface{}, key
 				} else {
 					// The key is not a regular field name.
 					// Eg: Where(g.Map{"age > 16": nil})
-					// Issue: https://github.com/gogf/gf/issues/765
+					// Issue: https://github.com/yyf330/gf/issues/765
 					if empty.IsEmpty(value) {
 						buffer.WriteString(quotedKey)
 						break

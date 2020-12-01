@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gogf/gf/container/gtype"
+	"github.com/yyf330/gf/container/gtype"
 )
 
 func main() {

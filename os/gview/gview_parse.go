@@ -1,8 +1,8 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 package gview
 
@@ -10,24 +10,24 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/encoding/ghash"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gfsnotify"
-	"github.com/gogf/gf/os/gmlock"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/yyf330/gf/encoding/ghash"
+	"github.com/yyf330/gf/internal/intlog"
+	"github.com/yyf330/gf/os/gfsnotify"
+	"github.com/yyf330/gf/os/gmlock"
+	"github.com/yyf330/gf/text/gstr"
+	"github.com/yyf330/gf/util/gconv"
+	"github.com/yyf330/gf/util/gutil"
 	htmltpl "html/template"
 	"strconv"
 	"strings"
 	texttpl "text/template"
 
-	"github.com/gogf/gf/os/gres"
+	"github.com/yyf330/gf/os/gres"
 
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gspath"
+	"github.com/yyf330/gf/container/gmap"
+	"github.com/yyf330/gf/os/gfile"
+	"github.com/yyf330/gf/os/glog"
+	"github.com/yyf330/gf/os/gspath"
 )
 
 const (

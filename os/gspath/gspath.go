@@ -1,8 +1,8 @@
-// Copyright 2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2018 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 // Package gspath implements file index and search for folders.
 //
@@ -14,15 +14,15 @@ package gspath
 import (
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/yyf330/gf/internal/intlog"
 	"os"
 	"sort"
 	"strings"
 
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/yyf330/gf/container/garray"
+	"github.com/yyf330/gf/container/gmap"
+	"github.com/yyf330/gf/os/gfile"
+	"github.com/yyf330/gf/text/gstr"
 )
 
 // SPath manages the path searching feature.

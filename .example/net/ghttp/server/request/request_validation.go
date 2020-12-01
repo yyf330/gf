@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/util/gvalid"
+	"github.com/yyf330/gf/frame/g"
+	"github.com/yyf330/gf/net/ghttp"
+	"github.com/yyf330/gf/util/gvalid"
 )
 
 type User struct {

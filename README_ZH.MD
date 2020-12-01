@@ -1,10 +1,10 @@
 # GoFrame
-[![Go Doc](https://godoc.org/github.com/gogf/gf?status.svg)](https://godoc.org/github.com/gogf/gf) 
+[![Go Doc](https://godoc.org/github.com/yyf330/gf?status.svg)](https://godoc.org/github.com/yyf330/gf) 
 [![Build Status](https://travis-ci.org/gogf/gf.svg?branch=master)](https://travis-ci.org/gogf/gf) 
-[![Go Report](https://goreportcard.com/badge/github.com/gogf/gf?v=1)](https://goreportcard.com/report/github.com/gogf/gf)
+[![Go Report](https://goreportcard.com/badge/github.com/yyf330/gf?v=1)](https://goreportcard.com/report/github.com/yyf330/gf)
 [![Code Coverage](https://codecov.io/gh/gogf/gf/branch/master/graph/badge.svg)](https://codecov.io/gh/gogf/gf/branch/master)
-[![Production Ready](https://img.shields.io/badge/production-ready-blue.svg)](https://github.com/gogf/gf)
-[![License](https://img.shields.io/github/license/gogf/gf.svg?style=flat)](https://github.com/gogf/gf)
+[![Production Ready](https://img.shields.io/badge/production-ready-blue.svg)](https://github.com/yyf330/gf)
+[![License](https://img.shields.io/github/license/gogf/gf.svg?style=flat)](https://github.com/yyf330/gf)
 
 [English](README.MD) | 简体中文
 
@@ -28,16 +28,16 @@
 * 设计为团队及企业使用；
 
 # 地址
-- **主库**：https://github.com/gogf/gf 
+- **主库**：https://github.com/yyf330/gf 
 - **码云**：https://gitee.com/johng/gf 
 
 # 安装
 ```html
-go get -u -v github.com/gogf/gf
+go get -u -v github.com/yyf330/gf
 ```
 推荐使用 `go.mod`:
 ```
-require github.com/gogf/gf latest
+require github.com/yyf330/gf latest
 ```
 
 # 限制
@@ -66,7 +66,7 @@ golang版本 >= 1.11
 # 性能
 
 以下是目前最流行的`WEB Server` Golang框架/类库性能测试结果。
-性能测试用例源代码仓库: https://github.com/gogf/gf-performance
+性能测试用例源代码仓库: https://github.com/yyf330/gf-performance
 
 ## 环境:
 
@@ -122,12 +122,12 @@ ab -t 10 -c 100 http://127.0.0.1:3000/json
 
 开发文档：https://goframe.org
 
-接口文档：https://godoc.org/github.com/gogf/gf
+接口文档：https://godoc.org/github.com/yyf330/gf
 
 # 帮助
 - QQ交流群：[116707870](//shang.qq.com/wpa/qunwpa?idkey=195f91eceeb5d7fa76009b7cd5a4641f70bf4897b7f5a520635eb26ff17adfe7)
 - WX交流群：微信添加`389961817`备注`GF`
-- 主库ISSUE：https://github.com/gogf/gf/issues
+- 主库ISSUE：https://github.com/yyf330/gf/issues
 
 > 建议通过阅读`GoFrame`的源码以及API文档深度学习`GoFrame`，了解更多的精妙设计。
 
@@ -147,12 +147,12 @@ ab -t 10 -c 100 http://127.0.0.1:3000/json
 - [喜马拉雅](https://www.ximalaya.com)
 - [作业帮](https://www.zybang.com/)
 
-> 在这里只列举了部分知名的用户，如果您的企业或者产品正在使用`GoFrame`，欢迎到 [这里](https://github.com/gogf/gf/issues/168) 留言。
+> 在这里只列举了部分知名的用户，如果您的企业或者产品正在使用`GoFrame`，欢迎到 [这里](https://github.com/yyf330/gf/issues/168) 留言。
 
 # 贡献
 
-感谢所有参与`GoFrame`开发的贡献者。 [[贡献者列表](https://github.com/gogf/gf/graphs/contributors)].
-<a href="https://github.com/gogf/gf/graphs/contributors"><img src="https://opencollective.com/goframe/contributors.svg?width=890&button=false" /></a>
+感谢所有参与`GoFrame`开发的贡献者。 [[贡献者列表](https://github.com/yyf330/gf/graphs/contributors)].
+<a href="https://github.com/yyf330/gf/graphs/contributors"><img src="https://opencollective.com/goframe/contributors.svg?width=890&button=false" /></a>
 
 
 # 捐赠

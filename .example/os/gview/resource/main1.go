@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gres"
-	_ "github.com/gogf/gf/os/gres/testdata"
+	"github.com/yyf330/gf/frame/g"
+	"github.com/yyf330/gf/os/gres"
+	_ "github.com/yyf330/gf/os/gres/testdata"
 )
 
 func main() {

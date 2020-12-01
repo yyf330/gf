@@ -4,7 +4,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/os/gproc"
+	"github.com/yyf330/gf/os/gproc"
 )
 
 func main() {

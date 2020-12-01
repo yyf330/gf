@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/database/gdb"
-	"github.com/gogf/gf/encoding/gparser"
-	"github.com/gogf/gf/frame/g"
+	"github.com/yyf330/gf/database/gdb"
+	"github.com/yyf330/gf/encoding/gparser"
+	"github.com/yyf330/gf/frame/g"
 )
 
 func main() {

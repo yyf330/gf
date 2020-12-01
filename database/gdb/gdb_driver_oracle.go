@@ -1,8 +1,8 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 //
 // Note:
 // 1. It needs manually import: _ "github.com/mattn/go-oci8"
@@ -15,13 +15,13 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/yyf330/gf/internal/intlog"
+	"github.com/yyf330/gf/text/gstr"
 	"reflect"
 	"strconv"
 	"strings"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/yyf330/gf/text/gregex"
 )
 
 // DriverOracle is the driver for oracle database.

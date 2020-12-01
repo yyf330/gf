@@ -1,23 +1,23 @@
-// Copyright 2019 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2019 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 package gredis_test
 
 import (
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/util/guid"
+	"github.com/yyf330/gf/container/gvar"
+	"github.com/yyf330/gf/frame/g"
+	"github.com/yyf330/gf/util/guid"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/yyf330/gf/os/gtime"
+	"github.com/yyf330/gf/util/gconv"
 
-	"github.com/gogf/gf/database/gredis"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/yyf330/gf/database/gredis"
+	"github.com/yyf330/gf/test/gtest"
 )
 
 var (

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/gogf/gf/net/ghttp"
+import "github.com/yyf330/gf/net/ghttp"
 
 func Hello1(r *ghttp.Request) {
 	r.Response.Write("127.0.0.1: Hello World1!")

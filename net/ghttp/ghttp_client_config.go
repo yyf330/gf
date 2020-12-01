@@ -1,15 +1,15 @@
-// Copyright 2017 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2017 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 package ghttp
 
 import (
 	"context"
 	"crypto/tls"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/yyf330/gf/text/gstr"
 	"golang.org/x/net/proxy"
 	"net"
 	"net/http"
@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/yyf330/gf/text/gregex"
 )
 
 // Client is the HTTP client for HTTP request management.

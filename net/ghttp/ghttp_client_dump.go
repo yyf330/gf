@@ -1,19 +1,19 @@
-// Copyright 2020 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2020 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 package ghttp
 
 import (
 	"fmt"
-	"github.com/gogf/gf/internal/utils"
+	"github.com/yyf330/gf/internal/utils"
 	"io/ioutil"
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/gogf/gf/util/gconv"
+	"github.com/yyf330/gf/util/gconv"
 )
 
 // dumpTextFormat is the format of the dumped raw string

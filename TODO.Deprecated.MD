@@ -1,4 +1,4 @@
-> This markdown is deprecated and will be removed in future. All TODO features are staged in the issue: https://github.com/gogf/gf/issues
+> This markdown is deprecated and will be removed in future. All TODO features are staged in the issue: https://github.com/yyf330/gf/issues
 
 # ON THE WAY
 1. 增加图形验证码支持，至少支持数字和英文字母；
@@ -83,7 +83,7 @@
 21. 改进控制器及执行对象注册，更友好地支持动态路由注册，例如：注册规则为 /channel/:name，现有的控制器及执行对象注册很难友好支持这种动态形式；
 22. 当前gpage分页包的输出标签不支持li，大多数CSS框架都是li+a标签模式，需要提供可更加灵活的定制化功能实现；
 23. 平滑重启机制改进，以便于开发阶段调试；
-24. 对grpool进行优化改进，包括属性原子操作封装采用gtype实现，修正设计BUG：https://github.com/gogf/gf/issues/6；
+24. 对grpool进行优化改进，包括属性原子操作封装采用gtype实现，修正设计BUG：https://github.com/yyf330/gf/issues/6；
 25. gredis增加redis密码支持；
 26. 改进ghttp.Server平滑重启机制，当新进程接管服务后，再使用进程间通信方式通知父进程销毁；
 27. gproc进程间通信增加分组特性，不同的进程间可以通过进程ID以及分组名称发送/获取进程消息；

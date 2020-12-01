@@ -169,7 +169,7 @@ OSC最佳开源项目评选开始了，如果您喜欢`GoFrame`，欢迎为`GoFr
 1. 修复`glog`中定时器懒初始化时的`goroutine`泄露问题。
 1. 修复`gstr`中名称`Case`转换相关方法在名称中带有数字+特殊字符时的名称转换问题。
 1. 修复`ghttp`模块中的`CORS`跨域设置`Header`细节问题。
-1. 其他BUG修复：https://github.com/gogf/gf/issues?q=is%3Aissue+label%3Abug+is%3Aclosed
+1. 其他BUG修复：https://github.com/yyf330/gf/issues?q=is%3Aissue+label%3Abug+is%3Aclosed
 
 
 # `v1.13.1` (2020-06-10)
@@ -199,7 +199,7 @@ OSC最佳开源项目评选开始了，如果您喜欢`GoFrame`，欢迎为`GoFr
 1. 新增`GoFrame`视频教程地址：
     - bilibili：https://www.bilibili.com/video/av94410029
     - 西瓜视频： https://www.ixigua.com/pseries/6809291194665796100/
-1. 将不常用的`guuid`模块迁移到 github.com/gogf/guuid 作为社区模块维护，保持`gf`主仓库的轻量级。
+1. 将不常用的`guuid`模块迁移到 github.com/yyf330/guuid 作为社区模块维护，保持`gf`主仓库的轻量级。
 1. 新增`guid`模块，用于高效轻量级的唯一字符串生成：https://goframe.org/util/guid/index
 
 
@@ -377,7 +377,7 @@ OSC最佳开源项目评选开始了，如果您喜欢`GoFrame`，欢迎为`GoFr
 1. 修复`gres.File`对于`http.File`接口的实现细节；
 1. 修复`garray.Pop*`方法的边界问题；
 1. 修复`gres`中`Readdir`方法参数为`0`时报错的问题；
-1. 其他一些修复：https://github.com/gogf/gf/issues?q=is%3Aissue+label%3Abug
+1. 其他一些修复：https://github.com/yyf330/gf/issues?q=is%3Aissue+label%3Abug
 
 
 
@@ -390,7 +390,7 @@ OSC最佳开源项目评选开始了，如果您喜欢`GoFrame`，欢迎为`GoFr
 
 `GF`框架提供了比较常用、高质量的基础开发模块，轻量级、模块化、高性能，推荐大家阅读框架源码了解更多细节。本次发布有个别的不兼容升级，往往批量替换即可，以下`change log`比较完善，建议升级前仔细阅读。
 
-本次发布即意味下一版本开发计划的开启，欢迎更多小伙伴参与开源贡献：https://github.com/gogf/gf/projects/8
+本次发布即意味下一版本开发计划的开启，欢迎更多小伙伴参与开源贡献：https://github.com/yyf330/gf/projects/8
 
 感谢大家支持！Enjoy your `GF`！
 
@@ -411,7 +411,7 @@ OSC最佳开源项目评选开始了，如果您喜欢`GoFrame`，欢迎为`GoFr
 
 ## 地址
 - 官网：https://goframe.org
-- 主库：https://github.com/gogf/gf 
+- 主库：https://github.com/yyf330/gf 
 - 码云：https://gitee.com/johng/gf 
 
 # Change Log
@@ -596,7 +596,7 @@ OSC最佳开源项目评选开始了，如果您喜欢`GoFrame`，欢迎为`GoFr
 1. 修复`gfile.MTimeMillisecond`方法返回错误的文件修改毫秒时间戳。
 1. 修复`gconv.Int64`对负数转换的支持。
 1. 其他一些修复。
-1. 详见：https://github.com/gogf/gf/issues?q=label%3Abug
+1. 详见：https://github.com/yyf330/gf/issues?q=label%3Abug
 
 
 
@@ -798,7 +798,7 @@ OSC最佳开源项目评选开始了，如果您喜欢`GoFrame`，欢迎为`GoFr
     - 改进数据库配置管理：https://goframe.org/database/gdb/config
     - 增加大量单元测试；
 1. `gredis`
-    - 返回数据类型转换改进：https://github.com/gogf/gf/issues/415
+    - 返回数据类型转换改进：https://github.com/yyf330/gf/issues/415
     - 完善单元测试；
     - 其他改进；
 
@@ -898,10 +898,10 @@ OSC最佳开源项目评选开始了，如果您喜欢`GoFrame`，欢迎为`GoFr
 
 
 ## Bug Fix
-1. 解决`WebSocket`关闭时的`hijacked`报错问题：https://github.com/gogf/gf/issues/381
+1. 解决`WebSocket`关闭时的`hijacked`报错问题：https://github.com/yyf330/gf/issues/381
 1. 解决静态文件服务时大文件的内存占用问题；
 1. 修复前置`Nginx`后默认情况下的`Cookie`域名设置问题；
-1. 修复`gconv.Struct`在属性为`[]struct`并且输入属性参数为空时的转换失败问题：https://github.com/gogf/gf/issues/405
+1. 修复`gconv.Struct`在属性为`[]struct`并且输入属性参数为空时的转换失败问题：https://github.com/yyf330/gf/issues/405
 1. 其他一些修复；
 
 

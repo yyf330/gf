@@ -1,8 +1,8 @@
-// Copyright 2019 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2019 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 package gerror_test
 
@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/yyf330/gf/errors/gerror"
+	"github.com/yyf330/gf/test/gtest"
 )
 
 func nilError() error {

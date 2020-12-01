@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gview"
+	"github.com/yyf330/gf/frame/g"
+	"github.com/yyf330/gf/os/gview"
 )
 
 // 用于测试的内置函数

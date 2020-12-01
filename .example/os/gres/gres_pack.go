@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gogf/gf/crypto/gaes"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gres"
+	"github.com/yyf330/gf/crypto/gaes"
+	"github.com/yyf330/gf/os/gfile"
+	"github.com/yyf330/gf/os/gres"
 )
 
 var (

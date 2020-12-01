@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gogf/gf/errors/gerror"
+	"github.com/yyf330/gf/errors/gerror"
 )
 
 func Error1() error {

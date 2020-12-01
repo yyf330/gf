@@ -1,8 +1,8 @@
-// Copyright 2018 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2018 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 // Package gspath implements file index and search for folders.
 //
@@ -13,9 +13,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gfsnotify"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/yyf330/gf/os/gfile"
+	"github.com/yyf330/gf/os/gfsnotify"
+	"github.com/yyf330/gf/text/gstr"
 )
 
 // updateCacheByPath adds all files under <path> recursively.

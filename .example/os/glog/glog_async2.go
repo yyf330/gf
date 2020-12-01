@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/gogf/gf/os/glog"
+	"github.com/yyf330/gf/os/glog"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gogf/gf/os/gfpool"
+	"github.com/yyf330/gf/os/gfpool"
 )
 
 func main() {

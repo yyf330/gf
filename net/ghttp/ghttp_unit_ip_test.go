@@ -1,8 +1,8 @@
-// Copyright 2020 gf Author(https://github.com/gogf/gf). All Rights Reserved.
+// Copyright 2020 gf Author(https://github.com/yyf330/gf). All Rights Reserved.
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/yyf330/gf.
 
 // static service testing.
 
@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/yyf330/gf/frame/g"
+	"github.com/yyf330/gf/net/ghttp"
+	"github.com/yyf330/gf/test/gtest"
 )
 
 func TestRequest_GetRemoteIp(t *testing.T) {

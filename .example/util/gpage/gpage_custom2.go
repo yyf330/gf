@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/os/gview"
-	"github.com/gogf/gf/util/gpage"
+	"github.com/yyf330/gf/frame/g"
+	"github.com/yyf330/gf/net/ghttp"
+	"github.com/yyf330/gf/os/gview"
+	"github.com/yyf330/gf/util/gpage"
 )
 
 // pageContent customizes the page tag name.
